@@ -7,10 +7,10 @@
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <!--数据库链接地址账号密码-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/miaosha"
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3310/miaosha"
                         userId="root"
-                        password="123456">
+                        password="111">
         </jdbcConnection>
 
         <!--生成DataObject类存放位置-->

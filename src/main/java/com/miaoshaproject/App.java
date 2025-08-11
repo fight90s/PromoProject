@@ -23,7 +23,7 @@ public class  App {
 
     @RequestMapping("/")
     public String home() {
-        UserDO userDO = userDOMapper.selectByPrimaryKey(1);
+        UserDO userDO = userDOMapper.selectByPrimaryKey(40);
         if (userDO == null) {
             return "用户对象不存在";
         } else {
